@@ -1,0 +1,197 @@
+.container{
+ max-width: 1696px;
+margin: 0px auto;
+box-shadow: 12px 0 15px -4px , -12px 0 8px -4px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+   display: flex ; 
+   justify-content: space-between;
+   
+}
+.title{
+    border: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    padding:13px 18px ;
+    font-size: x-large;
+font-weight: bold;
+margin-top: 60px;}
+
+.logo-container{
+    width: 120px;
+    height: auto;
+}
+.logo-main{
+    width: 100%;
+    height: auto;
+}
+.first{
+display: flex;
+justify-content: space-between;
+
+}
+.font{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.slogan-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.slogan {
+    font-style: italic;
+    color: #1D6CB3;
+    text-align: right;
+}
+
+.s-margin{
+    margin-bottom: 8px;
+}
+
+.margin{
+    margin-bottom: 40px;
+}
+
+.green-color{
+    color: #09886E;
+}
+.form-width{
+    width: 100%;
+}
+.second{
+    display: flex;
+}
+label{
+    min-width: fit-content;
+    padding-right: 4px;
+}
+.training{
+    width: 70%;
+}
+
+
+.input-form{
+    /* background-color: red; */
+    outline: none;
+    border: none;
+    border-bottom: 1px dashed #000;;
+}
+.top-border{
+    border-top: 1px solid #000;
+    
+}
+.amount{
+    font-weight: 300 ;
+    font-size: large;
+}
+
+.amount-input{
+    
+    margin-left: 5px;
+    border-color: #09886E;
+    border-radius: 1px;
+    height: 22px;
+    border: 1px solid #09886E;
+}
+
+.content{
+    padding:40px;
+}
+.footer-size{
+  display: flex;
+  color: aliceblue;
+  gap: 6px;
+  margin-right: 35px;
+}
+ 
+.footer-main{
+    /* margin-left: -44px; */
+    /* margin-right: -44px; */
+    max-height: 24px;
+    padding: 2px;
+    background: linear-gradient(90deg,#0870B5, #05A59C);
+}
+
+.footer{
+    font-size: x-small;
+    display: flex;
+   
+   
+    padding: 2px; 
+    justify-content: center;
+    
+}
+.f-width{
+    flex: 1;
+}
+
+
+.input-size{
+    width: 100%;
+}
+
+
+.contact-input{
+    width: 300px;
+}
+
+.span-parent {
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+    width: 55px;
+    gap: 5px;
+
+}
+
+
+.custom-line{
+    height: 3px;
+}
+
+
+.span-1{
+    min-width: 5px;
+    border-radius: 3px;
+    background:#09886E;
+    /* height: 1px; */
+    
+}
+.span-2{
+    min-width: 5px;
+    border-radius: 3px;
+    background:#09886E;
+    /* height: 1px; */
+    
+}
+.span-3{
+    min-width: 8px;
+    border-radius: 3px;
+    background:#09886E;
+    /* height: 2px; */
+    
+}
+.span-4{
+    flex:1;
+    border-radius: 3px;
+    background:#09886E;
+    
+}
+.top-margin{
+    margin-top: 20px;
+}
